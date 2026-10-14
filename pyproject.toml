@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deepseek-arxiv-tracker"
+version = "1.0.0"
+description = "Budget-aware condensed matter research tracker"
+requires-python = ">=3.11"
+dependencies = ["requests>=2.32,<3", "PyYAML>=6.0,<7", "pypdf>=5,<7", "tzdata>=2025.1"]
+
+[project.scripts]
+arxiv-tracker = "arxiv_tracker.cli:main"
+
+[project.optional-dependencies]
+gui = ["streamlit>=1.30,<2", "pandas>=1.5,<3"]
+
+[tool.setuptools.packages.find]
+include = ["arxiv_tracker*", "arxiv_gui*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

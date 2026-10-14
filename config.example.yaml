@@ -1,0 +1,102 @@
+schedule:
+  timezone: Asia/Shanghai
+  time: '12:30'
+storage:
+  directory: state
+arxiv:
+  endpoint: https://export.arxiv.org/api/query
+  user_agent: DeepSeekArxivTracker/1.0 (personal research; configure contact email)
+  categories: [cond-mat.supr-con, cond-mat.str-el, cond-mat.mtrl-sci, cond-mat.mes-hall, cond-mat.other]
+  initial_days: 7
+  overlap_days: 3
+  page_size: 100
+  request_interval: 3.1
+  timeout: 60
+  retries: 3
+  import_legacy: true
+  legacy_directory: legacy
+research:
+  description: >-
+    关注凝聚态物理与新型量子材料，偏重单晶生长和低温实验。
+    高召回识别未列名的新化合物，物理问题、结构或实验方法相关即值得考虑。
+    不将材料名称作为必要条件，不把理论预言或可能的SDW/TRSB描述成实验确证。
+  interests:
+    - name: 非常规超导与序参量
+      weight: 1.2
+      keywords: [unconventional superconductivity, spin-triplet, order parameter, time reversal symmetry breaking, TRSB, superconducting gap]
+    - name: 笼目晶格
+      weight: 1.2
+      keywords: [kagome, CsV3Sb5, CsTi3Bi5, ATi3Bi5]
+    - name: 铀基新材料
+      weight: 1.2
+      keywords: [uranium, UTe2, UAs2, UBi2, actinide]
+    - name: 强关联与重费米子
+      weight: 1.0
+      keywords: [strongly correlated, heavy fermion, heavy-fermion, Kondo, quantum critical]
+    - name: 密度波与有序态
+      weight: 1.0
+      keywords: [charge density wave, spin density wave, CDW, SDW, nematic, magnetic order, phase transition]
+    - name: 高压调控
+      weight: 1.0
+      keywords: [pressure induced superconductivity, high pressure, pressure tuned, pressure-induced]
+    - name: 单晶生长与低温表征
+      weight: 1.0
+      keywords: [single crystal, crystal growth, low temperature transport, magnetotransport, quantum oscillation, susceptibility, specific heat, electronic structure, Hall effect]
+    - name: 拓扑与能带奇异性
+      weight: 1.0
+      keywords: [topological material, topological insulator, Weyl semimetal, Dirac semimetal, van Hove, flat band]
+scoring:
+  direct_threshold: 70
+  potential_threshold: 40
+  borderline_margin: 5
+  dimensions: {material: 1, physics: 1, methods: 1, novelty: 1, value: 1}
+selection:
+  summaries_per_day: 10
+  deep_per_day: 2
+  deep_min_score: 75
+deepseek:
+  base_url: https://api.deepseek.com
+  timeout: 240
+  retries: 2
+  stages:
+    screening: {model: deepseek-flash, thinking: false, effort: none, max_tokens: 700}
+    review: {model: deepseek-flash, thinking: true, effort: high, max_tokens: 2200}
+    summary: {model: deepseek-flash, thinking: false, effort: none, max_tokens: 2000}
+    deep: {model: deepseek-flash, thinking: true, effort: max, max_tokens: 6500}
+pdf:
+  max_bytes: 20971520
+  max_pages: 80
+  max_characters: 45000
+  timeout: 90
+  minimum_text_characters: 500
+  supplementary_urls: {} # arXiv ID -> explicit HTTPS URLs, optional
+  allowed_supplement_hosts: [arxiv.org]
+budget:
+  monthly_cny: 20
+  daily_call_limit: 0 # 0 = unlimited count; monthly/token budgets still apply
+  warning_fraction: 0.8
+  stop_deep_fraction: 0.9
+  input_safety_factor: 1.1
+pricing:
+  verified_on: '2026-10-14'
+  source: https://api-docs.deepseek.com/zh-cn/quick_start/pricing/
+  holidays: [] # YYYY-MM-DD; absent dates use conservative weekday pricing
+  workdays: [] # adjusted weekend workdays; treated conservatively as peak
+  models:
+    deepseek-flash:
+      off_peak: {cache_hit: 0.02, cache_miss: 1, output: 4}
+      peak: {cache_hit: 0.04, cache_miss: 2, output: 8}
+    deepseek-v4-pro:
+      off_peak: {cache_hit: 0.15, cache_miss: 4.5, output: 13.5}
+      peak: {cache_hit: 0.30, cache_miss: 9, output: 27}
+notifications:
+  github_issues: true
+  smtp: false
+local_ai: # GUI only; headless GitHub Actions remains DeepSeek
+  provider: auto # prefer ChatGPT-signed-in Codex; otherwise configured DeepSeek
+  codex:
+    executable: codex
+    model: '' # empty = CLI default; only use a model available to your ChatGPT account
+    reasoning_effort: high
+    timeout: 300
+    daily_call_limit: 0 # subscription quota is enforced by Codex; 0 = no extra local cap

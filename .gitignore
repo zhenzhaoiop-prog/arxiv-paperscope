@@ -1,0 +1,26 @@
+# Local legacy research assets stay on disk, outside the public deployment.
+/data/
+/output/
+/.pptx_build/
+*.pptx
+*.pdf
+*.sqlite*
+*.db
+__pycache__/
+.pytest_cache/
+.runtime/
+.venv/
+.venv-gui/
+*.egg-info/
+/state/
+/demo-state/
+/examples/demo-run/
+/recovery/
+/deploy-bundle/
+/deploy-bundle.zip
+/config.local.yaml
+/gui-state/
+/.streamlit/secrets.toml
+.env
+.env.*
+*.log
