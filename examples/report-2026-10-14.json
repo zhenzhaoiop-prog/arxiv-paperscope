@@ -1,0 +1,624 @@
+{
+  "date": "2026-10-14",
+  "mock": true,
+  "new_candidates": 3,
+  "pending_screening": 0,
+  "pending_review": 0,
+  "papers": [
+    {
+      "paper": {
+        "abstract": "A kagome single crystal exhibits charge order and magnetotransport anomalies. The observations suggest competing electronic orders; time-reversal symmetry breaking is not established.",
+        "authors": [
+          "Mock Author (虚构测试数据)"
+        ],
+        "categories": [
+          "cond-mat.str-el"
+        ],
+        "doi": "",
+        "id": "9999.00002",
+        "key": "9999.00002v1",
+        "pdf_url": "https://arxiv.org/pdf/9999.00002v1",
+        "primary_category": "cond-mat.str-el",
+        "published": "2026-10-13T12:30:00+08:00",
+        "title": "Electronic order in a kagome material",
+        "updated": "2026-10-14T12:30:00+08:00",
+        "url": "https://arxiv.org/abs/9999.00002v1",
+        "version": 1,
+        "discovered_on": "2026-10-14"
+      },
+      "relevance": {
+        "analyzed_on": "2026-10-14",
+        "categories": [
+          "笼目晶格"
+        ],
+        "dimensions": {
+          "material": {
+            "reason": "Mock：用于流程验证，非真实科研判断。",
+            "score": 76
+          },
+          "methods": {
+            "reason": "Mock：用于流程验证，非真实科研判断。",
+            "score": 76
+          },
+          "novelty": {
+            "reason": "Mock：用于流程验证，非真实科研判断。",
+            "score": 76
+          },
+          "physics": {
+            "reason": "Mock：用于流程验证，非真实科研判断。",
+            "score": 76
+          },
+          "value": {
+            "reason": "Mock：用于流程验证，非真实科研判断。",
+            "score": 76
+          }
+        },
+        "label": "直接相关",
+        "new_material": false,
+        "paper_key": "9999.00002v1",
+        "priority": 91.2,
+        "recommendation": "Mock：新材料、电子有序或低温实验相关，需真实API复核。",
+        "score": 76.0
+      }
+    },
+    {
+      "paper": {
+        "abstract": "We report growth of single crystals of a new heavy-fermion compound. Resistivity and specific heat reveal a pressure-tuned phase transition. The pairing symmetry remains unresolved.",
+        "authors": [
+          "Mock Author (虚构测试数据)"
+        ],
+        "categories": [
+          "cond-mat.str-el"
+        ],
+        "doi": "",
+        "id": "9999.00001",
+        "key": "9999.00001v1",
+        "pdf_url": "https://arxiv.org/pdf/9999.00001v1",
+        "primary_category": "cond-mat.str-el",
+        "published": "2026-10-13T12:30:00+08:00",
+        "title": "A new heavy-fermion compound under pressure",
+        "updated": "2026-10-14T12:30:00+08:00",
+        "url": "https://arxiv.org/abs/9999.00001v1",
+        "version": 1,
+        "discovered_on": "2026-10-14"
+      },
+      "relevance": {
+        "analyzed_on": "2026-10-14",
+        "categories": [
+          "强关联与重费米子"
+        ],
+        "dimensions": {
+          "material": {
+            "reason": "Mock：用于流程验证，非真实科研判断。",
+            "score": 90
+          },
+          "methods": {
+            "reason": "Mock：用于流程验证，非真实科研判断。",
+            "score": 90
+          },
+          "novelty": {
+            "reason": "Mock：用于流程验证，非真实科研判断。",
+            "score": 90
+          },
+          "physics": {
+            "reason": "Mock：用于流程验证，非真实科研判断。",
+            "score": 90
+          },
+          "value": {
+            "reason": "Mock：用于流程验证，非真实科研判断。",
+            "score": 90
+          }
+        },
+        "label": "直接相关",
+        "new_material": true,
+        "paper_key": "9999.00001v1",
+        "priority": 90.0,
+        "recommendation": "Mock：新材料、电子有序或低温实验相关，需真实API复核。",
+        "score": 90.0
+      }
+    },
+    {
+      "paper": {
+        "abstract": "We calculate optical propagation in a classical waveguide with no evidence for a quantum material application.",
+        "authors": [
+          "Mock Author (虚构测试数据)"
+        ],
+        "categories": [
+          "cond-mat.str-el"
+        ],
+        "doi": "",
+        "id": "9999.00003",
+        "key": "9999.00003v1",
+        "pdf_url": "https://arxiv.org/pdf/9999.00003v1",
+        "primary_category": "cond-mat.str-el",
+        "published": "2026-10-13T12:30:00+08:00",
+        "title": "A theoretical model for optical waveguides",
+        "updated": "2026-10-14T12:30:00+08:00",
+        "url": "https://arxiv.org/abs/9999.00003v1",
+        "version": 1,
+        "discovered_on": "2026-10-14"
+      },
+      "relevance": {
+        "analyzed_on": "2026-10-14",
+        "categories": [],
+        "dimensions": {
+          "material": {
+            "reason": "Mock：用于流程验证，非真实科研判断。",
+            "score": 20
+          },
+          "methods": {
+            "reason": "Mock：用于流程验证，非真实科研判断。",
+            "score": 20
+          },
+          "novelty": {
+            "reason": "Mock：用于流程验证，非真实科研判断。",
+            "score": 20
+          },
+          "physics": {
+            "reason": "Mock：用于流程验证，非真实科研判断。",
+            "score": 20
+          },
+          "value": {
+            "reason": "Mock：用于流程验证，非真实科研判断。",
+            "score": 20
+          }
+        },
+        "label": "低相关",
+        "new_material": false,
+        "paper_key": "9999.00003v1",
+        "priority": 20.0,
+        "recommendation": "Mock：新材料、电子有序或低温实验相关，需真实API复核。",
+        "score": 20.0
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "paper_key": "9999.00002v1",
+      "analysis": {
+        "analyzed_on": "2026-10-14",
+        "chinese_title": "Mock演示：笼目材料中的电子有序",
+        "limitations": [
+          "未阅读全文，数据与结论仅限标题和摘要可支持的信息。"
+        ],
+        "paper_key": "9999.00002v1",
+        "sections": {
+          "与已有研究的关系": [
+            {
+              "evidence": [],
+              "kind": "未报告",
+              "text": "Mock演示：所给摘要未提供已有材料体系的定量对照，无法判定是否优于既有研究。"
+            }
+          ],
+          "与科研方向的联系及推荐理由": [
+            {
+              "evidence": [],
+              "kind": "AI推测",
+              "text": "Mock演示：建议结合结构表征、磁输运和独立对称性探测区分竞争有序态。"
+            }
+          ],
+          "主要创新点": [
+            {
+              "evidence": [
+                {
+                  "page": null,
+                  "quote": "A kagome single crystal exhibits charge order and magnetotransport anomalies."
+                }
+              ],
+              "kind": "作者解释",
+              "text": "Mock演示：潜在价值在于电子有序与磁输运现象的联系，机制尚需证据。"
+            }
+          ],
+          "关键结果与重要数据": [
+            {
+              "evidence": [
+                {
+                  "page": null,
+                  "quote": "The observations suggest competing electronic orders; time-reversal symmetry breaking is not established."
+                }
+              ],
+              "kind": "作者解释",
+              "text": "Mock演示：作者认为电子有序之间可能存在竞争，但未确立时间反演对称性破缺。"
+            }
+          ],
+          "实验或理论方法": [
+            {
+              "evidence": [
+                {
+                  "page": null,
+                  "quote": "A kagome single crystal exhibits charge order and magnetotransport anomalies."
+                }
+              ],
+              "kind": "实验事实",
+              "text": "Mock演示：报告磁输运异常；测量温区、磁场范围和样品制备条件未报告。"
+            }
+          ],
+          "尚未解决的问题": [
+            {
+              "evidence": [
+                {
+                  "page": null,
+                  "quote": "The observations suggest competing electronic orders; time-reversal symmetry breaking is not established."
+                }
+              ],
+              "kind": "作者解释",
+              "text": "Mock演示：时间反演对称性破缺尚未确立。"
+            }
+          ],
+          "研究对象、材料体系和晶体结构": [
+            {
+              "evidence": [
+                {
+                  "page": null,
+                  "quote": "A kagome single crystal exhibits charge order and magnetotransport anomalies."
+                }
+              ],
+              "kind": "实验事实",
+              "text": "Mock演示：研究对象为笼目单晶；摘要未给出具体化学式和空间群。"
+            }
+          ],
+          "研究背景及核心科学问题": [
+            {
+              "evidence": [],
+              "kind": "AI推测",
+              "text": "Mock演示：可围绕笼目结构中的电子有序与输运异常开展研究。"
+            }
+          ]
+        },
+        "source_label": "基于摘要的总结"
+      }
+    },
+    {
+      "paper_key": "9999.00001v1",
+      "analysis": {
+        "analyzed_on": "2026-10-14",
+        "chinese_title": "Mock演示：新型重费米子化合物的压力调控研究",
+        "limitations": [
+          "未阅读全文，数据与结论仅限标题和摘要可支持的信息。"
+        ],
+        "paper_key": "9999.00001v1",
+        "sections": {
+          "与已有研究的关系": [
+            {
+              "evidence": [],
+              "kind": "未报告",
+              "text": "Mock演示：所给摘要未提供已有材料体系的定量对照，无法判定是否优于既有研究。"
+            }
+          ],
+          "与科研方向的联系及推荐理由": [
+            {
+              "evidence": [],
+              "kind": "AI推测",
+              "text": "Mock演示：建议优先核查晶体生长与压力条件，补充低温比热、磁化率和输运对照。"
+            }
+          ],
+          "主要创新点": [
+            {
+              "evidence": [
+                {
+                  "page": null,
+                  "quote": "We report growth of single crystals of a new heavy-fermion compound."
+                }
+              ],
+              "kind": "作者解释",
+              "text": "Mock演示：潜在创新在于新化合物单晶及其压力调控响应，需全文确认。"
+            }
+          ],
+          "关键结果与重要数据": [
+            {
+              "evidence": [
+                {
+                  "page": null,
+                  "quote": "Resistivity and specific heat reveal a pressure-tuned phase transition."
+                }
+              ],
+              "kind": "实验事实",
+              "text": "Mock演示：电阻率与比热支持压力调控相变；摘要没有可引用的转变温度和压力数值。"
+            }
+          ],
+          "实验或理论方法": [
+            {
+              "evidence": [
+                {
+                  "page": null,
+                  "quote": "Resistivity and specific heat reveal a pressure-tuned phase transition."
+                }
+              ],
+              "kind": "实验事实",
+              "text": "Mock演示：采用电阻率和比热测量研究压力调控相变。"
+            }
+          ],
+          "尚未解决的问题": [
+            {
+              "evidence": [
+                {
+                  "page": null,
+                  "quote": "The pairing symmetry remains unresolved."
+                }
+              ],
+              "kind": "作者解释",
+              "text": "Mock演示：配对对称性仍未解决。"
+            }
+          ],
+          "研究对象、材料体系和晶体结构": [
+            {
+              "evidence": [
+                {
+                  "page": null,
+                  "quote": "We report growth of single crystals of a new heavy-fermion compound."
+                }
+              ],
+              "kind": "实验事实",
+              "text": "Mock演示：摘要报告新型重费米子化合物的单晶生长，但未给出化学式和空间群。"
+            }
+          ],
+          "研究背景及核心科学问题": [
+            {
+              "evidence": [],
+              "kind": "AI推测",
+              "text": "Mock演示：可围绕压力调控与竞争有序态探讨强关联电子的相变机制。"
+            }
+          ]
+        },
+        "source_label": "基于摘要的总结"
+      }
+    }
+  ],
+  "deep_analyses": [
+    {
+      "paper_key": "9999.00002v1",
+      "analysis": {
+        "analyzed_on": "2026-10-14",
+        "chinese_title": "Mock演示：笼目材料中的电子有序",
+        "limitations": [
+          "未阅读全文，数据与结论仅限标题和摘要可支持的信息。"
+        ],
+        "paper_key": "9999.00002v1",
+        "sections": {
+          "与已有材料体系的比较": [
+            {
+              "evidence": [],
+              "kind": "未报告",
+              "text": "Mock演示：所给摘要未提供已有材料体系的定量对照，无法判定是否优于既有研究。"
+            }
+          ],
+          "主要测量数据": [
+            {
+              "evidence": [
+                {
+                  "page": null,
+                  "quote": "A kagome single crystal exhibits charge order and magnetotransport anomalies."
+                }
+              ],
+              "kind": "实验事实",
+              "text": "Mock演示：报告磁输运异常；测量温区、磁场范围和样品制备条件未报告。"
+            }
+          ],
+          "作者的物理机制解释": [
+            {
+              "evidence": [
+                {
+                  "page": null,
+                  "quote": "The observations suggest competing electronic orders; time-reversal symmetry breaking is not established."
+                }
+              ],
+              "kind": "作者解释",
+              "text": "Mock演示：时间反演对称性破缺尚未确立。"
+            }
+          ],
+          "值得进一步开展的实验": [
+            {
+              "evidence": [],
+              "kind": "AI推测",
+              "text": "Mock演示：建议结合结构表征、磁输运和独立对称性探测区分竞争有序态。"
+            }
+          ],
+          "关键结果与支持证据": [
+            {
+              "evidence": [
+                {
+                  "page": null,
+                  "quote": "The observations suggest competing electronic orders; time-reversal symmetry breaking is not established."
+                }
+              ],
+              "kind": "作者解释",
+              "text": "Mock演示：作者认为电子有序之间可能存在竞争，但未确立时间反演对称性破缺。"
+            }
+          ],
+          "创新性与局限性": [
+            {
+              "evidence": [
+                {
+                  "page": null,
+                  "quote": "A kagome single crystal exhibits charge order and magnetotransport anomalies."
+                }
+              ],
+              "kind": "作者解释",
+              "text": "Mock演示：潜在价值在于电子有序与磁输运现象的联系，机制尚需证据。"
+            }
+          ],
+          "材料合成与实验条件": [
+            {
+              "evidence": [
+                {
+                  "page": null,
+                  "quote": "A kagome single crystal exhibits charge order and magnetotransport anomalies."
+                }
+              ],
+              "kind": "实验事实",
+              "text": "Mock演示：研究对象为笼目单晶；摘要未给出具体化学式和空间群。"
+            }
+          ],
+          "科学问题及研究动机": [
+            {
+              "evidence": [],
+              "kind": "AI推测",
+              "text": "Mock演示：可围绕笼目结构中的电子有序与输运异常开展研究。"
+            }
+          ]
+        },
+        "source_label": "基于摘要的总结"
+      }
+    },
+    {
+      "paper_key": "9999.00001v1",
+      "analysis": {
+        "analyzed_on": "2026-10-14",
+        "chinese_title": "Mock演示：新型重费米子化合物的压力调控研究",
+        "limitations": [
+          "未阅读全文，数据与结论仅限标题和摘要可支持的信息。"
+        ],
+        "paper_key": "9999.00001v1",
+        "sections": {
+          "与已有材料体系的比较": [
+            {
+              "evidence": [],
+              "kind": "未报告",
+              "text": "Mock演示：所给摘要未提供已有材料体系的定量对照，无法判定是否优于既有研究。"
+            }
+          ],
+          "主要测量数据": [
+            {
+              "evidence": [
+                {
+                  "page": null,
+                  "quote": "Resistivity and specific heat reveal a pressure-tuned phase transition."
+                }
+              ],
+              "kind": "实验事实",
+              "text": "Mock演示：采用电阻率和比热测量研究压力调控相变。"
+            }
+          ],
+          "作者的物理机制解释": [
+            {
+              "evidence": [
+                {
+                  "page": null,
+                  "quote": "The pairing symmetry remains unresolved."
+                }
+              ],
+              "kind": "作者解释",
+              "text": "Mock演示：配对对称性仍未解决。"
+            }
+          ],
+          "值得进一步开展的实验": [
+            {
+              "evidence": [],
+              "kind": "AI推测",
+              "text": "Mock演示：建议优先核查晶体生长与压力条件，补充低温比热、磁化率和输运对照。"
+            }
+          ],
+          "关键结果与支持证据": [
+            {
+              "evidence": [
+                {
+                  "page": null,
+                  "quote": "Resistivity and specific heat reveal a pressure-tuned phase transition."
+                }
+              ],
+              "kind": "实验事实",
+              "text": "Mock演示：电阻率与比热支持压力调控相变；摘要没有可引用的转变温度和压力数值。"
+            }
+          ],
+          "创新性与局限性": [
+            {
+              "evidence": [
+                {
+                  "page": null,
+                  "quote": "We report growth of single crystals of a new heavy-fermion compound."
+                }
+              ],
+              "kind": "作者解释",
+              "text": "Mock演示：潜在创新在于新化合物单晶及其压力调控响应，需全文确认。"
+            }
+          ],
+          "材料合成与实验条件": [
+            {
+              "evidence": [
+                {
+                  "page": null,
+                  "quote": "We report growth of single crystals of a new heavy-fermion compound."
+                }
+              ],
+              "kind": "实验事实",
+              "text": "Mock演示：摘要报告新型重费米子化合物的单晶生长，但未给出化学式和空间群。"
+            }
+          ],
+          "科学问题及研究动机": [
+            {
+              "evidence": [],
+              "kind": "AI推测",
+              "text": "Mock演示：可围绕压力调控与竞争有序态探讨强关联电子的相变机制。"
+            }
+          ]
+        },
+        "source_label": "基于摘要的总结"
+      }
+    }
+  ],
+  "costs": {
+    "day": {
+      "month": "2026-10",
+      "date": "2026-10-14",
+      "estimated_cny": 0.030016,
+      "uncertain_reserved_cny": 0.0,
+      "committed_cny": 0.030016,
+      "limit_cny": 20,
+      "stages": {
+        "screening": {
+          "estimated_cny": 0.006306,
+          "uncertain_reserved_cny": 0,
+          "calls": 3
+        },
+        "review": {
+          "estimated_cny": 0.002102,
+          "uncertain_reserved_cny": 0,
+          "calls": 1
+        },
+        "summary": {
+          "estimated_cny": 0.010804,
+          "uncertain_reserved_cny": 0,
+          "calls": 2
+        },
+        "deep": {
+          "estimated_cny": 0.010804,
+          "uncertain_reserved_cny": 0,
+          "calls": 2
+        }
+      },
+      "warning": false
+    },
+    "month": {
+      "month": "2026-10",
+      "date": null,
+      "estimated_cny": 0.045024,
+      "uncertain_reserved_cny": 0.0,
+      "committed_cny": 0.045024,
+      "limit_cny": 20,
+      "stages": {
+        "screening": {
+          "estimated_cny": 0.008408,
+          "uncertain_reserved_cny": 0,
+          "calls": 4
+        },
+        "review": {
+          "estimated_cny": 0.004204,
+          "uncertain_reserved_cny": 0,
+          "calls": 2
+        },
+        "summary": {
+          "estimated_cny": 0.016206,
+          "uncertain_reserved_cny": 0,
+          "calls": 3
+        },
+        "deep": {
+          "estimated_cny": 0.016206,
+          "uncertain_reserved_cny": 0,
+          "calls": 3
+        }
+      },
+      "warning": false
+    }
+  },
+  "errors": []
+}

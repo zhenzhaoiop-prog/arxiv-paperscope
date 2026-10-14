@@ -1,0 +1,33 @@
+{
+  "month": "2026-10",
+  "date": null,
+  "estimated_cny": 0.045024,
+  "uncertain_reserved_cny": 0.0,
+  "committed_cny": 0.045024,
+  "limit_cny": 20,
+  "stages": {
+    "screening": {
+      "estimated_cny": 0.008408,
+      "uncertain_reserved_cny": 0,
+      "calls": 4
+    },
+    "review": {
+      "estimated_cny": 0.004204,
+      "uncertain_reserved_cny": 0,
+      "calls": 2
+    },
+    "summary": {
+      "estimated_cny": 0.016206,
+      "uncertain_reserved_cny": 0,
+      "calls": 3
+    },
+    "deep": {
+      "estimated_cny": 0.016206,
+      "uncertain_reserved_cny": 0,
+      "calls": 3
+    }
+  },
+  "warning": false,
+  "mock": true,
+  "basis": "模拟usage，非真实扣费"
+}
